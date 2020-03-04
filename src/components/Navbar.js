@@ -32,7 +32,7 @@ export class Navbar extends Component {
               <MdPerson class="md" />
               <MdKeyboardArrowDown class="md" />
             </button>
-            <div className="dd-list">
+            <div className="dd-list" id="dd-list">
               <ul>
                 <li>Night Mode</li>
                 <li>Reddit Coins</li>
