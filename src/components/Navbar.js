@@ -7,6 +7,9 @@ import { MdPerson } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import logo from "./images/redditlogo.png";
 import text from "./images/reddittext.png";
+import { IoIosChatbubbles } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoIosArrowDropdown } from "react-icons/io";
 
 export class Navbar extends Component {
   render() {
@@ -36,15 +39,21 @@ export class Navbar extends Component {
           <div className="images">
             <img src={logo} alt="" width="32px" />
             <img className="reddittext" src={text} alt="" width="57px" />
-            <button className="marrow">v</button>
+            <button className="marrow">
+              <IoIosArrowDropdown />
+            </button>
           </div>
           <div className="mobileBtn">
             <button className="useapp">Use App</button>
-            <button className="chat">Icon</button>
+            <button className="chat">
+              <IoIosChatbubbles />
+            </button>
             <button className="search">
               <FaSearch />
             </button>
-            <button className="mdropdown">Dicon</button>
+            <button className="mdropdown">
+              <GiHamburgerMenu />
+            </button>
           </div>
         </nav>
       </div>

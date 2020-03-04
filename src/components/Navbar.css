@@ -120,6 +120,29 @@
     display: none;
   }
 
+  .mobilenav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .mobileBtn {
+    display: flex;
+  }
+
+  .reddittext {
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+
+  .marrow {
+    font-size: 25px;
+    color: grey;
+    padding-left: 1px;
+  }
+
   .useapp {
     font-family: "IBM Plex Sans", sans-serif;
     text-transform: uppercase;
@@ -127,9 +150,29 @@
     border-radius: 3px;
     border: 1px #0178d3 solid;
     color: white;
-    padding: 5px 8px 5px 8px;
+    padding: 3px 8px 3px 8px;
     font-weight: 600;
+    margin-top: 5px;
     margin-left: 5px;
-    margin-right: 3px;
+    margin-right: 4px;
+    height: 27px;
+  }
+
+  .chat {
+    font-size: 20px;
+    color: grey;
+    padding: 5px;
+  }
+
+  .search {
+    font-size: 20px;
+    color: grey;
+    padding: 5px;
+  }
+
+  .mdropdown {
+    font-size: 20px;
+    color: grey;
+    padding: 5px;
   }
 }
