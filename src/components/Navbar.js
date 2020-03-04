@@ -32,6 +32,15 @@ export class Navbar extends Component {
               <MdPerson class="md" />
               <MdKeyboardArrowDown class="md" />
             </button>
+            <div className="dd-list">
+              <ul>
+                <li>Night Mode</li>
+                <li>Reddit Coins</li>
+                <li>Reddit Premium</li>
+                <li>Help Center</li>
+                <li>Log In/Sign Up</li>
+              </ul>
+            </div>
           </div>
         </nav>
 
