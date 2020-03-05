@@ -184,6 +184,7 @@
     font-size: 25px;
     color: grey;
     padding-left: 1px;
+    border: none;
   }
 
   .useapp {
@@ -206,32 +207,34 @@
     font-size: 20px;
     color: grey;
     padding: 5px;
+    border: none;
   }
 
   .search {
     font-size: 20px;
     color: grey;
     padding: 5px;
+    border: none;
   }
 
   .mdropdown {
     font-size: 20px;
     color: grey;
     padding: 5px;
+    border: none;
   }
 }
 
-.dd-list {
+.mdd-list {
   display: none;
   position: fixed;
   top: 40px;
   left: 0px;
   background-color: white;
-  
   width: 100%;
   
 }
-.dd-list li {
+.mdd-list li {
   list-style-type: none;
   padding: 10px;
   display: flex;

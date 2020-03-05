@@ -35,3 +35,24 @@
   border: 1px solid;
   width: 35%;
 }
+
+
+@media only screen and (max-width: 480px) {
+
+* {
+  background-color: white
+}
+
+.trendingbox {
+  display: none;
+}
+
+.sidebar {
+  display: none;
+}
+
+.leftWrap {
+  width: 100%;
+}
+
+}

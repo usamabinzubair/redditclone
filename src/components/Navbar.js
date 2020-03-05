@@ -22,14 +22,7 @@ export class Navbar extends Component {
     showMenu: false
   };
 
-  // handleChange = (e) => {
-  //   this.setState ({
-  //     menu: e.target.value
-  //   })
-  // }
-
-  onClick = e => {
-    e.preventDefault();
+  onClick = () => {
     this.setState({
       showMenu: this.state.showMenu === false ? true : false
     });
@@ -106,7 +99,7 @@ export class Navbar extends Component {
 
             </button>
             <div
-              className="dd-list"
+              className="mdd-list"
               style={{ display: this.state.showMenu ? "block" : "none" }}
               id="dd-list"
             >

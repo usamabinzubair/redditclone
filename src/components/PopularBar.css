@@ -1,3 +1,13 @@
+@media only screen and (min-width: 481px) {
+
+.bigdiv a {
+    display: none;
+    }
+
+.mpopdropdown {
+    display: none;
+}
+
 .popBtns{
     background-color: white;
     margin:10px;
@@ -34,3 +44,64 @@
     border-radius: 30px;
     outline: none;
 }
+}
+
+
+@media only screen and (max-width: 480px) {
+
+.mpopdropdown {
+    border: none;
+    color: grey;
+    font-size: 14px;
+}
+
+.popBtns {
+    display: none;
+}
+
+.smallheading {
+    border-bottom: 1px rgb(199, 197, 197) solid;
+}
+
+.bigheading {
+    font-weight: 400;
+}
+.micons {
+    color:rgb(199, 197, 197);
+    padding-right: 5px;
+}
+
+.mpopbar {
+
+    display: none;
+    position: fixed;
+    top: 90px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.mpopbar li {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+.bigdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.bigdiv a {
+    text-decoration: none;
+    color:#0178d3;
+    font-size: 14px;
+}
+
+}
+
