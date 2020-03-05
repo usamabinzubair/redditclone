@@ -11,9 +11,37 @@
     right: 5px;
     background-color: white;
     padding: 5px;
+    
   }
   .dd-list li {
     list-style-type: none;
+    padding: 10px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bigheading {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .logsign {
+    border-top: 1px #EDEFF1 solid;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .smallheading {
+    font-size: 12px;
+    color: grey;
+  }
+
+  .menuicon {
+    color: grey;
+    padding-right: 15px;
   }
 
   * {
@@ -68,6 +96,7 @@
     padding: 5px 20px 5px 20px;
     font-weight: 600;
     width: 100px;
+    outline: none;
   }
 
   .login:hover {
@@ -88,6 +117,7 @@
     margin-left: 5px;
     margin-right: 3px;
     width: 100px;
+    outline: none;
   }
 
   .signup:hover {
@@ -115,6 +145,7 @@
     margin-left: 5px;
     margin-right: 3px;
     width: 80px;
+    outline: none;
   }
 
   .dropdown:hover {
@@ -168,6 +199,7 @@
     margin-left: 5px;
     margin-right: 4px;
     height: 27px;
+    outline: none;
   }
 
   .chat {
@@ -187,4 +219,44 @@
     color: grey;
     padding: 5px;
   }
+}
+
+.dd-list {
+  display: none;
+  position: fixed;
+  top: 40px;
+  left: 0px;
+  background-color: white;
+  
+  width: 100%;
+  
+}
+.dd-list li {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.bigheading {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.logsign {
+  border-top: 1px #EDEFF1 solid;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.smallheading {
+  font-size: 12px;
+  color: grey;
+}
+
+.menuicon {
+  color: grey;
+  padding-right: 15px;
 }

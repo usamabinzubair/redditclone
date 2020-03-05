@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import PopularBar from "./components/PopularBar"
 
 export class App extends Component {
   render() {
@@ -10,7 +11,18 @@ export class App extends Component {
         <div className="NavBar">
           <Navbar />
         </div>
-        <div className="App"></div>
+
+        <div className="trendingbox"><p>Trending</p></div>
+
+        <div className="App">
+         
+          <div className = "leftWrap">
+            <div className="popularbox"><p><PopularBar /></p></div>
+
+            <div className="postbox"><p>post</p></div>
+          </div>
+          <div className="sidebar"><p>side</p></div>
+        </div>
       </div>
     );
   }

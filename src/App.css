@@ -6,4 +6,32 @@
 .App {
   background-color: #dae0e6;
   height: 100vh;
+  display: flex;
+}
+
+.trendingbox {
+  background-color: #dae0e6;
+  border: 1px solid;
+  height: 225px;
+  width: 100%;
+
+}
+
+.leftWrap{
+  width: 65%;
+}
+
+.popularbox {
+  border: 1px solid;
+  height: 60px
+}
+
+.postbox {
+  border: 1px solid;
+  height: 100vh;
+}
+
+.sidebar {
+  border: 1px solid;
+  width: 35%;
 }

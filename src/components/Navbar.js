@@ -10,12 +10,17 @@ import text from "./images/reddittext.png";
 import { IoIosChatbubbles } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowDropdown } from "react-icons/io";
+import { FaMoon } from "react-icons/fa";
+import { AiFillCopyrightCircle } from "react-icons/ai";
+import { GiCheckedShield } from "react-icons/gi";
+import { FaRegQuestionCircle } from "react-icons/fa";
+import { GiExitDoor } from "react-icons/gi";
 
 export class Navbar extends Component {
   state = {
     menu: "",
-    showMenu: false,
-  }
+    showMenu: false
+  };
 
   // handleChange = (e) => {
   //   this.setState ({
@@ -24,12 +29,11 @@ export class Navbar extends Component {
   // }
 
   onClick = e => {
-    e.preventDefault ()
+    e.preventDefault();
     this.setState({
       showMenu: this.state.showMenu === false ? true : false
-    })
-  }
-
+    });
+  };
 
   render() {
     return (
@@ -47,17 +51,35 @@ export class Navbar extends Component {
           <div className="buttons">
             <button className="login">Log In</button>
             <button className="signup">Sign Up</button>
-            <button className="dropdown" onClick = {this.onClick}>
+            <button className="dropdown" onClick={this.onClick}>
               <MdPerson class="md" />
               <MdKeyboardArrowDown class="md" />
             </button>
-            <div className="dd-list" style={{ display: this.state.showMenu ? "block" : "none" }} id="dd-list">
+            <div
+              className="dd-list"
+              style={{ display: this.state.showMenu ? "block" : "none" }}
+              id="dd-list"
+            >
               <ul>
-                <li>Night Mode</li>
-                <li>Reddit Coins</li>
-                <li>Reddit Premium</li>
-                <li>Help Center</li>
-                <li>Log In/Sign Up</li>
+                <li className="smallheading">View Options</li>
+                <li className="bigheading">
+                  {" "}
+                  <FaMoon className = "menuicon"/> Night Mode
+                </li>
+                <li className="smallheading">More Stuff</li>
+                <li className="bigheading">
+                  <AiFillCopyrightCircle className = "menuicon" /> Reddit Coins
+                </li>
+                <li className="bigheading">
+                  <GiCheckedShield className = "menuicon"/> Reddit Premium
+                </li>
+                <li className="bigheading">
+                  <FaRegQuestionCircle className = "menuicon"/> Help Center
+                </li>
+                <li className="logsign">
+                  <GiExitDoor className = "menuicon"/>
+                  Log In/Sign Up
+                </li>
               </ul>
             </div>
           </div>
@@ -79,9 +101,37 @@ export class Navbar extends Component {
             <button className="search">
               <FaSearch />
             </button>
-            <button className="mdropdown">
+            <button className="mdropdown" onTouchStart={this.onClick}>
               <GiHamburgerMenu />
+
             </button>
+            <div
+              className="dd-list"
+              style={{ display: this.state.showMenu ? "block" : "none" }}
+              id="dd-list"
+            >
+              <ul>
+                <li className="smallheading">View Options</li>
+                <li className="bigheading">
+                  {" "}
+                  <FaMoon className = "menuicon"/> Night Mode
+                </li>
+                <li className="smallheading">More Stuff</li>
+                <li className="bigheading">
+                  <AiFillCopyrightCircle className = "menuicon" /> Reddit Coins
+                </li>
+                <li className="bigheading">
+                  <GiCheckedShield className = "menuicon"/> Reddit Premium
+                </li>
+                <li className="bigheading">
+                  <FaRegQuestionCircle className = "menuicon"/> Help Center
+                </li>
+                <li className="logsign">
+                  <GiExitDoor className = "menuicon"/>
+                  Log In/Sign Up
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
@@ -90,5 +140,3 @@ export class Navbar extends Component {
 }
 
 export default Navbar;
-
-
