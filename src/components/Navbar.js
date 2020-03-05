@@ -12,6 +12,25 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowDropdown } from "react-icons/io";
 
 export class Navbar extends Component {
+  state = {
+    menu: "",
+    showMenu: false,
+  }
+
+  // handleChange = (e) => {
+  //   this.setState ({
+  //     menu: e.target.value
+  //   })
+  // }
+
+  onClick = e => {
+    e.preventDefault ()
+    this.setState({
+      showMenu: this.state.showMenu === false ? true : false
+    })
+  }
+
+
   render() {
     return (
       <div className="navbar">
@@ -28,11 +47,11 @@ export class Navbar extends Component {
           <div className="buttons">
             <button className="login">Log In</button>
             <button className="signup">Sign Up</button>
-            <button className="dropdown">
+            <button className="dropdown" onClick = {this.onClick}>
               <MdPerson class="md" />
               <MdKeyboardArrowDown class="md" />
             </button>
-            <div className="dd-list" id="dd-list">
+            <div className="dd-list" style={{ display: this.state.showMenu ? "block" : "none" }} id="dd-list">
               <ul>
                 <li>Night Mode</li>
                 <li>Reddit Coins</li>
@@ -72,4 +91,4 @@ export class Navbar extends Component {
 
 export default Navbar;
 
-// test
+
