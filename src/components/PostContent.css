@@ -1,11 +1,15 @@
-.allContent{
+@media only screen and (min-width: 481px) {
+  .mobileContent {
+    display: none;
+  }
+
+  .allContent {
     display: flex;
     background-color: white;
     margin-bottom: 10px;
     border-radius: 5px;
-
-}
-.upvotes{
+  }
+  .upvotes {
     background-color: rgb(240, 238, 238);
     display: flex;
     flex-direction: column;
@@ -13,37 +17,104 @@
     font-weight: 700;
     padding: 5px;
     border-radius: 5px 0px 0px 5px;
+  }
 
-}
-
-.subredditBar img {
-
+  .subredditBar img {
     height: 30px;
     border-radius: 50%;
     padding-right: 5px;
-}
+  }
 
-.title {
+  .title {
     font-size: 30px;
     font-weight: 500;
-}
+    padding: 8px;
+  }
 
-.content img {
+  .content {
+    padding: 8px;
+  }
+
+  .content img {
     width: 100%;
-}
+  }
 
-.propsub p {
+  .propsub {
     font-weight: 900;
     color: black;
-}
+    padding: 3px;
+  }
 
-.propsub p :hover {
+  .propsub :hover {
     text-decoration: underline;
     cursor: pointer;
-}
+  }
 
-.propuser {
-    font-size: 15px;
+  .propuser {
+    font-size: 12px;
     padding-left: 5px;
+  }
+
+  .commentBar {
+    height: 30px;
+  }
+
+  .commentBar button {
+    color: grey;
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: 6px;
+    line-height: 15px;
+  }
+
+  .commentBar button:hover {
+    background-color: rgb(228, 225, 225);
+    border-radius: 3px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .desktopContent {
+    display: none;
+  }
+  .subredditBar img {
+    display: none;
+  }
+
+  .title {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .mainCommentBar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px grey;
+
+  }
+  .commentBar button {
+    color: grey;
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: 6px;
+    line-height: 15px;
+    outline: none;
+  }
+
+
+
+.postcontent img {
+    width: 70px;
+    height: 50;
 }
 
+
+  
+}

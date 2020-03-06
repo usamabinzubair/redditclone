@@ -14,7 +14,7 @@ export class Posts extends Component {
             votes: 100,
             subimage: cat,
             subname: "r/Aww",
-            username: "name",
+            username: "u/Gjsfs",
             time: "12 hours ago",
             headline: "I'm really in love, look at those crossed paws.",
             content: <img src = "https://i.redd.it/upd4trh6dzk41.jpg"/>
@@ -25,12 +25,43 @@ export class Posts extends Component {
             votes: 100,
             subimage: cat,
             subname: "r/Aww",
-            username: "name",
+            username: "u/SjdhD",
             time: "12 hours ago",
             headline: "I'm really in love, look at those crossed paws.",
             content: "this is TEXT",
       
-          }
+          },
+          { 
+            votes: 100,
+            subimage: cat,
+            subname: "r/Aww",
+            username: "u/Gjsfs",
+            time: "12 hours ago",
+            headline: "I'm really in love, look at those crossed paws.",
+            content: <img src = "https://i.redd.it/upd4trh6dzk41.jpg"/>
+      
+          },
+          { 
+            votes: 100,
+            subimage: cat,
+            subname: "r/Aww",
+            username: "u/Gjsfs",
+            time: "12 hours ago",
+            headline: "I'm really in love, look at those crossed paws.",
+            content: <img src = "https://i.redd.it/upd4trh6dzk41.jpg"/>
+      
+          },
+          { 
+            votes: 100,
+            subimage: cat,
+            subname: "r/Aww",
+            username: "u/Gjsfs",
+            time: "12 hours ago",
+            headline: "I'm really in love, look at those crossed paws.",
+            content: <img src = "https://i.redd.it/upd4trh6dzk41.jpg"/>
+      
+          },
+
         ]
         }
 
