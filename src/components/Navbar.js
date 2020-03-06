@@ -1,7 +1,5 @@
 import "./Navbar.css";
 import React, { Component } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
 import { FaSearch } from "react-icons/fa";
 import { MdPerson } from "react-icons/md";
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -41,12 +39,12 @@ export class Navbar extends Component {
             <FaSearch />
             <input type="text" placeholder="Search" />
           </div>
-          <div className="buttons">
+          <div className = "buttons">
             <button className="login">Log In</button>
             <button className="signup">Sign Up</button>
             <button className="dropdown" onClick={this.onClick}>
-              <MdPerson class="md" />
-              <MdKeyboardArrowDown class="md" />
+              <MdPerson className ="md" />
+              <MdKeyboardArrowDown className ="md" />
             </button>
             <div
               className="dd-list"

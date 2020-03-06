@@ -1,45 +1,48 @@
-.upvotes{
-    background-color: rgb(240, 238, 238);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50px;
-    font-weight: 700;
-}
+
 
 .postMain{
-    border: 1px solid blue;
-    background-color: white;
     width: 100%;
 }
 
+.main{
+    border: 1px solid red;
+    ;
+}
 .posts{
-    border: 1px solid greenyellow;
     display: flex;
-    background-color: white;
+    flex-direction: row;
     margin:10px;
     margin-left: 40px;
     width: 600px;
-    border: 1px solid rgb(249, 249, 249);
     border-radius: 3px;
 }
 
 .subredditBar{
-    border: 1px solid red;
     height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: gray;
+    font-weight: 500;
+
 
 }
+
 .title{
-    border: 1px solid pink;
+    
     font-size: 35px;
 
 }
-.content{
-    border: 1px solid green;
 
-}
 .commentBar{
-    border: 1px solid purple;
     height: 30px;
+}
 
+.commentBar button{
+    color: grey;
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px;
 }

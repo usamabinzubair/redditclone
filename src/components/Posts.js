@@ -1,24 +1,51 @@
 import React, { Component } from 'react';
 import './Posts.css';
-import { TiArrowUpThick } from "react-icons/ti";
-import { TiArrowDownThick } from "react-icons/ti";
+import PostContent from "./PostContent"
+import cat from "./images/cat.jpg";
 
 
 
 export class Posts extends Component {
 
+    state = {
+        postContent: [
+      
+          { 
+            votes: 100,
+            subimage: cat,
+            subname: "r/Aww",
+            username: "name",
+            time: "12 hours ago",
+            headline: "I'm really in love, look at those crossed paws.",
+            content: <img src = "https://i.redd.it/upd4trh6dzk41.jpg"/>
+      
+          },
+
+          { 
+            votes: 100,
+            subimage: cat,
+            subname: "r/Aww",
+            username: "name",
+            time: "12 hours ago",
+            headline: "I'm really in love, look at those crossed paws.",
+            content: "this is TEXT",
+      
+          }
+        ]
+        }
 
     render() {
+        const eachPost = this.state.postContent.map((postContent, index) => {
+            return (
+              <PostContent votes = {postContent.votes} subimage = {postContent.subimage} subname = {postContent.subname} username={postContent.username} time = {postContent.time} headline = {postContent.headline} content = {postContent.content}    key={index}/>
+            );
+          });
         return (
-            <div>
+            <div className = "main">
                 <div className = "posts">
-                    <div className = "upvotes"><TiArrowUpThick/>100<TiArrowDownThick/></div>
 
                     <div className = "postMain">
-                        <div className = "subredditBar">sub name, username, time</div>
-                        <div className = "title">main header</div>
-                        <div className = "content">images, links, text info</div>
-                        <div className = "commentBar">comments, share, save, hide, report</div>
+                        {eachPost}
                     </div>
                 </div>
             </div>
