@@ -1,0 +1,135 @@
+.trendingToday {
+    padding-left: 22px;
+    padding-top: 10px;
+}
+
+.alltrendContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.subreddit {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.subimage {
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+.subtext {
+    font-size: 15;
+}
+
+.trendingContent1 {
+
+    border: 1px solid green;
+    height: 185px;
+    width: 230px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-size: 150%;
+    background-position: center;
+    background-image:
+    linear-gradient(to bottom, rgba(165, 164, 164, 0.52), rgba(0, 0, 0, 0.73)),
+    url("https://derivates.kicker.de/image/upload/x_125,y_11,w_2662,h_1497,c_crop/w_1000,h_563,q_auto/izr7awbkooz3osls6wmo.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.trendingContent1 img {
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+
+.trendingContent2 {
+
+    border: 1px solid green;
+    height: 185px;
+    width: 230px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-size: 150%;
+    background-position: center;
+    background-image:
+    linear-gradient(to bottom, rgba(165, 164, 164, 0.52), rgba(0, 0, 0, 0.73)),
+    url("https://derivates.kicker.de/image/upload/x_125,y_11,w_2662,h_1497,c_crop/w_1000,h_563,q_auto/izr7awbkooz3osls6wmo.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.trendingContent2 img {
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+.trendingContent3 {
+
+    border: 1px solid green;
+    height: 185px;
+    width: 230px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-size: 150%;
+    background-position: center;
+    background-image:
+    linear-gradient(to bottom, rgba(165, 164, 164, 0.52), rgba(0, 0, 0, 0.73)),
+    url("https://derivates.kicker.de/image/upload/x_125,y_11,w_2662,h_1497,c_crop/w_1000,h_563,q_auto/izr7awbkooz3osls6wmo.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.trendingContent3 img {
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+.trendingContent4 {
+
+    border: 1px solid green;
+    height: 185px;
+    width: 230px;
+    border-radius: 10px;
+    margin-right: 15px;
+    background-size: 150%;
+    background-position: center;
+    background-image:
+    linear-gradient(to bottom, rgba(165, 164, 164, 0.52), rgba(0, 0, 0, 0.73)),
+    url("https://derivates.kicker.de/image/upload/x_125,y_11,w_2662,h_1497,c_crop/w_1000,h_563,q_auto/izr7awbkooz3osls6wmo.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.trendingContent4 img {
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}

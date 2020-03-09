@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import PopularBar from "./components/PopularBar"
 import Posts from "./components/Posts"
+import Trending from "./components/Trending";
+import SideBar from "./components/SideBar";
 
 export class App extends Component {
   render() {
@@ -12,7 +14,7 @@ export class App extends Component {
           <Navbar />
         </div>
 
-        <div className="trendingbox"><p>Trending</p></div>
+        <div className="trendingbox"><Trending/></div>
 
         <div className="App">
          
@@ -21,7 +23,7 @@ export class App extends Component {
 
             <div className="postbox"><Posts /></div>
           </div>
-          <div className="sidebar"><p>side</p></div>
+          <div className="sidebar"><SideBar /></div>
         </div>
       </div>
     );
