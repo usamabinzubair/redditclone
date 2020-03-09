@@ -1,0 +1,232 @@
+
+.top5 {
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 12px;
+    border: 1px solid rgb(202, 201, 201);
+}
+
+.top5 li {
+    list-style-type: none;
+    padding: 5px;
+    border-top: 1px rgb(223, 222, 222) solid;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.headerimg {
+ 
+    background-image: url("https://styles.redditmedia.com/t5_2x4yx/styles/bannerBackgroundImage_qrt6pz28j3i41.png");
+    background-position: center;
+    font-size: 16px;
+    color: white;
+    height: 80px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.headerimg p {
+
+    height: 75px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    font-weight: 600;
+        
+}
+
+.topcomimg {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+
+.arrowtop {
+    padding-left: 3px;
+    color: yellowgreen;
+    font-size: 25px;
+}
+
+
+ .viewall {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-transform: uppercase;
+    background-color: #0178d3;
+    border-radius: 3px;
+    border: 1px #0178d3 solid;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    width: 90%;
+    outline: none;
+    border: none;
+
+  }
+
+  .viewall:hover {
+      background-color: #8bbce5;
+      cursor: pointer;
+  }
+
+.bottomBtns {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    width: 85%;
+}
+
+.bottomBtns button{
+
+        font-family: "IBM Plex Sans", sans-serif;
+        background-color: #f6f7f9;
+        border-radius: 3px;
+        color: #0178d3;
+        margin: 5px;
+        padding: 5px 10px 5px 10px;
+        margin-left: 10px;
+        outline: none;
+        border: none;
+}
+
+.bottomBtns button:hover {
+    background-color: #eeeff1;
+      cursor: pointer;
+}
+
+
+/* ---------------------------------------------premium Button ------------------------------------------------- */
+.premium {
+    border: 1px solid rgb(202, 201, 201);
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.shield {
+    color: #e15a29;
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 7px;
+}
+
+.premiumtext {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+    width: 166px;
+}
+.heading {
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+.premium button {
+font-family: "IBM Plex Sans", sans-serif;
+        background-color: #e15a29;
+        border-radius: 3px;
+        color: white;
+        margin: 5px;
+        padding: 5px 7px 5px 7px;
+        margin-left: 10px;
+        outline: none;
+        border: none;
+        width: 84px;
+        font-weight: 900;
+}
+
+.premium button:hover {
+    background-color: #fc6c37;
+    cursor: pointer;
+
+
+/* -------------------------------------- Trending Communities ----------------------------------------------------- */
+}
+.trendComms {
+    border: red 1px solid;
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: 1px solid rgb(202, 201, 201);
+
+
+}
+
+.trendwrap {
+    display: flex;
+    
+}
+
+
+.ulbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.trendComms li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.trendComms button {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-transform: uppercase;
+    background-color: #0178d3;
+    border-radius: 3px;
+    border: 1px #0178d3 solid;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 3px;
+    width: 100px;
+    outline: none;
+  }
+
+  .trendComms button:hover {
+    border-color: rgb(159, 191, 233);
+    background-color: rgb(159, 191, 233);
+    cursor: pointer;
+  }
+.trendComms p {
+    font-weight: 700;
+    padding: 7px;
+}
+
+
+.popComms {
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: 1px solid rgb(202, 201, 201);
+}
+
+
+.help {
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: 1px solid rgb(202, 201, 201);
+}
+
+
+.trendtitles {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+

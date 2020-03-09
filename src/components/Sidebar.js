@@ -1,21 +1,29 @@
 import React from 'react';
 import './SideBar.css';
 import { GiCheckedShield } from "react-icons/gi";
+import { IoMdArrowDropup } from "react-icons/io"; 
+import planet from "./images/planet.png";
+import salami from "./images/salami.png";
+import  man from "./images/man.png";
+import  corona from "./images/corona.png";
+import  cmv from "./images/cmv.png";
 
 
 const SideBar = () => {
     return(
         <div className = "allSidebars">
             <div className = "top5">
-                <h2>Today's Top Growing Communities</h2>
+            <div className = "headerimg">
+                <p>Today's Top Growing Communities</p>
+                </div>
                 <ul>
-                    <li>1 <img src="subimg" />r/Coronavirus</li>
-                    <li>2 <img src="subimg" />r/relationship_advice</li>
-                    <li>3 <img src="subimg" />r/politics</li>
-                    <li>4 <img src="subimg" />r/PresidentialRaceMemes</li>
-                    <li>5 <img src="subimg" />r/changemyview </li>
+                    <li>1 <IoMdArrowDropup className = "arrowtop"/><img className = "topcomimg" src ={corona} />r/Coronavirus</li>
+                    <li>2 <IoMdArrowDropup className = "arrowtop"/><img className = "topcomimg" src = {planet} />r/relationship_advice</li>
+                    <li>3 <IoMdArrowDropup className = "arrowtop"/><img className = "topcomimg" src= {salami} />r/politics</li>
+                    <li>4 <IoMdArrowDropup className = "arrowtop"/><img className = "topcomimg" src= {man} />r/PresidentialRaceMemes</li>
+                    <li>5 <IoMdArrowDropup className = "arrowtop"/><img className = "topcomimg" src= {cmv} />r/changemyview </li>
                 </ul>
-                <button>VIEW ALL</button>
+                <button className = "viewall">VIEW ALL</button>
 ​
                     <div className = "bottomBtns">
                         <button>Sports</button>
@@ -27,31 +35,44 @@ const SideBar = () => {
             </div>
             
             <div className = "premium">
-                <GiCheckedShield />
-                <p>Reddit Premium</p>
+                <GiCheckedShield className = "shield"/>
+                <div className = "premiumtext">
+                <p className = "heading">Reddit Premium</p>
                 <p>The best Reddit experience, with monthly Coins</p>
+                </div>
                 <button>TRY NOW</button>
             </div>
 ​
             <div className = "trendComms">
-                <h2>Trending Communities</h2>
+                <p>Trending Communities</p>
+                <div className = "trendwrap">
+            <div className = "ultrend">
                 <ul>
-                    <li><img src="subimg" />r/dechonkers <li>58.3k members</li>
-                    <button>JOIN</button>
+                    <li><img className = "topcomimg" src = {planet} /> <div className = "trendtitles"><li>r/dechonkers</li><li>58.3k members</li></div>
+                    
                     </li>
-                    <li><img src="subimg"/>r/DadForAMinute<li>12.5k members</li>
-                    <button>JOIN</button>
+                    <li><img className = "topcomimg" src = {planet}/><div className = "trendtitles"><li>r/DadForAMinute</li><li>12.5k members</li></div>
+                    
                     </li>
-                    <li><img src="subimg"/>r/ironicsigns<li>34.3k members</li>
-                    <button>JOIN</button>
+                    <li><img className = "topcomimg" src = {planet}/><div className = "trendtitles"><li>r/ironicsigns</li><li>34.3k members</li></div>
+                    
                     </li>
-                    <li>r<img src="subimg"/>/dogswitheyebrows<li>20.8k members</li>
-                    <button>JOIN</button>
+                    <li><img className = "topcomimg" src = {planet}/><div className = "trendtitles"><li>r/dogswitheyebrows</li><li>20.8k members</li></div>
+                    
                     </li>
-                    <li><img src="subimg"/>r/EveryLittleAnimation<li>2.2k members</li>
-                    <button>JOIN</button>
+                    <li><img className = "topcomimg" src = {planet}/><div className = "trendtitles"><li>r/EveryLittleAnimation</li><li>2.2k members</li></div>
+                    
                     </li>
                 </ul>
+                </div>
+                <div className = "ulbuttons">
+                <button className = "join">JOIN</button>
+                <button className = "join">JOIN</button>
+                <button className = "join">JOIN</button>
+                <button className = "join">JOIN</button>
+                <button className = "join">JOIN</button>
+                </div>
+            </div>
             </div>
 ​
             <div className = "popComms">

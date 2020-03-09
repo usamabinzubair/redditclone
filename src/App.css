@@ -10,7 +10,6 @@
 
 .trendingbox {
   background-color: #dae0e6;
-  border: 1px solid;
   height: 225px;
   width: 100%;
 
@@ -34,7 +33,6 @@
 }
 
 .sidebar {
-  border: 1px solid;
   width: 40%;
 }
 
