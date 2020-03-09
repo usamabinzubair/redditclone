@@ -28,7 +28,7 @@ export class Posts extends Component {
             username: "u/SjdhD",
             time: "12 hours ago",
             headline: "I'm really in love, look at those crossed paws.",
-            content: "this is TEXT",
+            content: <img src = "https://i.redd.it/upd4trh6dzk41.jpg"/>
       
           },
           { 
@@ -84,4 +84,4 @@ export class Posts extends Component {
     }
 }
 
-export default Posts
+export default Posts 

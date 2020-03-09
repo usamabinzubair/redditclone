@@ -90,11 +90,18 @@
 
 .bigdiv {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 50px;
     padding-left: 10px;
     padding-right: 10px;
+    
+    
+}
+
+.bigdivwrap {
+
+    min-width: 380px;
 }
   
 .bigdiv a {

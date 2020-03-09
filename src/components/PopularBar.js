@@ -36,12 +36,14 @@ export class PopularBar extends Component {
             <MdShowChart /> Rising
           </button>
         </div>
+        <div className = "bigdivwrap">
         <div className = "bigdiv">
         <button className="mpopdropdown" onTouchStart={this.onClick}>
         <IoIosFlame /> Hot <IoIosArrowDown />
             </button>
         <a href = "#"> Log in / Register </a>
            
+        </div>
         </div>
         <div
           className="mpopbar"

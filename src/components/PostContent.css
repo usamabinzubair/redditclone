@@ -113,8 +113,13 @@
 .postcontent img {
     width: 70px;
     height: 50;
+    border-radius: 5px;
+    padding-left: 5px;
 }
 
-
+.allContent {
+  margin-bottom: 3px;
+  border-bottom: 1px solid rgb(236, 235, 235);
+}
   
 }
