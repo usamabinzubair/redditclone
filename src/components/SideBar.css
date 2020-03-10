@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 
 .top5 {
     width: 310px;
@@ -204,6 +205,13 @@ font-family: "IBM Plex Sans", sans-serif;
     font-weight: 700;
     padding: 7px;
 }
+.trendtitles {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------------------------------- Popular Comms ------------------------------------------------- */
 
 
 .popComms {
@@ -214,19 +222,92 @@ font-family: "IBM Plex Sans", sans-serif;
     border: 1px solid rgb(202, 201, 201);
 }
 
+.topRandom {
+    width: 305px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding: 5px
+}
+
+.topRandom a{
+    padding: 2px;
+    text-decoration: none;
+    color: black;   
+}
+.popcombuttons{
+    width: 310px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------------------------- Help box ------------------------------------------------- */
 
 .help {
-    width: 310px;
+    width: 290px;
     background-color: white;
     border-radius: 5px;
     margin-left: 15px;
     border: 1px solid rgb(202, 201, 201);
-}
-
-
-.trendtitles {
     font-size: 12px;
-    display: flex;
-    flex-direction: column;
+    padding: 10px
 }
 
+.listWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listRight {
+    margin-right: 60px;
+}
+
+.listWrapper li{
+    list-style-type: none;
+
+}
+
+.listWrapper li a{
+    text-decoration: none;
+    color: rgb(107, 106, 106);
+    font-size: 12px;
+    padding: 5px;
+}
+
+.listRight li{
+    padding-bottom: 4px ;
+}
+.listLeft li{
+    padding-bottom: 4px ;
+}
+
+
+.copyright{
+    padding-top: 12px;
+    padding-left: 6px;
+}
+
+
+/* ---------------------------------------------Back to Top Button ------------------------------------------------- */
+
+.backToTop {
+    font-family: "IBM Plex Sans", sans-serif;
+    text-transform: uppercase;
+    background-color: #0178d3;
+    border-radius: 3px;
+    border: 1px #0178d3 solid;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    margin: 10px;
+    width: 128px;
+    outline: none;
+}
+
+.buttonWrapper {
+    width: 310px;
+    display: flex;
+    justify-content: center;
+}

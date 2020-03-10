@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
+
 @media only screen and (min-width: 481px) {
   .mobileContent {
     display: none;
@@ -17,16 +19,18 @@
     font-weight: 700;
     padding: 5px;
     border-radius: 5px 0px 0px 5px;
+    font-size: 12px;
   }
 
   .subredditBar img {
-    height: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     padding-right: 5px;
   }
 
   .title {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 500;
     padding: 8px;
   }
