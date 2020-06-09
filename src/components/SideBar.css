@@ -220,27 +220,66 @@ font-family: "IBM Plex Sans", sans-serif;
     border-radius: 5px;
     margin-left: 15px;
     border: 1px solid rgb(202, 201, 201);
+
 }
 
+.popcomsheader {
+    width: 310px;
+    padding: 10px;
+    background-image: linear-gradient(white, white);
+    display: flex;
+    justify-content: space-between;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
 .topRandom {
     width: 305px;
     display: flex;
     flex-wrap: wrap;
     font-size: 12px;
     padding: 5px
+
 }
 
 .topRandom a{
     padding: 2px;
     text-decoration: none;
-    color: black;   
+    color: black; 
+    font-size: 12px;  
+    font-family: "IBM Plex Sans", sans-serif;
 }
 .popcombuttons{
     width: 310px;
-    padding: 5px;
-    background-color: white;
+    padding: 10px;
+    background-image: linear-gradient(white, white);
     display: flex;
     justify-content: space-between;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    border: 1px solid rgb(231, 229, 229)
+}
+
+
+.topline1 {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.topline2 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.topline3 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
 
 /* --------------------------------------------- Help box ------------------------------------------------- */

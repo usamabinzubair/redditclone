@@ -115,7 +115,7 @@ const SideBar = () => {
       </div>
       ​
       <div className="popComms">
-        <button className = "popcombuttons">POPULAR COMMUNITIES <IoIosArrowUp /></button>
+        <button className = "popcomsheader">POPULAR COMMUNITIES <IoIosArrowUp /></button>
         <div className="topRandom">
           <div className = "topline1">
           <a href="#">AskReddit</a>
